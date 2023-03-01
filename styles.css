@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -23,6 +24,7 @@ body {
   background: #f8d26d;
   border-radius: 10px;
   margin: 0 auto;
+  height: 657px;
   padding-top: 40px;
 }
 
