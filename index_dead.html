@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tamagotchi</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="gameBoy">
+    <div class="gameBoyFrame">
+      <div class="parameters">
+        <div class="imgPair">
+          <img src="./assets/Health.png" alt="health">
+          <p>0</p>
+        </div>
+        <div class="imgPair">
+          <img src="./assets/Hunger.png" alt="hunger">
+          <p>0</p>
+        </div>
+        <div class="imgPair">
+          <img src="./assets/Sleep.png" alt="sleep">
+          <p>0</p>
+        </div>
+        <div class="imgPair">
+          <img src="./assets/Fun.png" alt="fun">
+          <p>0</p>
+        </div>
+      </div>
+  
+      <div class="imageFrame">
+        <!-- State: Dead     -->
+        <div class="states">
+        <img src="./assets/Dead.png" alt="dead">
+        <div class="lineOne"></div>
+        </div>
+        <div class="stateFrame">
+              <p>DEAD</p> 
+        </div>
+
+      </div>
+    </div>
+   
+    <nav class="navigation">
+      <button class="restartButton">Restart</button>
+    </nav>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
