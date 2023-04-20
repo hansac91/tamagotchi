@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tamagotchi</title>
+    <title>Matching</title>
     <link href="./styles.css" rel="stylesheet" />
+    <link href="assets/spritesheets/spritesheet.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
@@ -13,19 +14,19 @@
     <div class="gameBoyFrame">
       <div class="parameters">
         <div class="imgPair">
-          <img src="./assets/Health.png" alt="health">
+          <img src="./assets/heart.png" alt="health">
           <p>10</p>
         </div>
         <div class="imgPair">
-          <img src="./assets/Hunger.png" alt="hunger">
+          <img src="./assets/eat.png" alt="hunger">
           <p>10</p>
         </div>
         <div class="imgPair">
-          <img src="./assets/Sleep.png" alt="sleep">
+          <img src="assets/energy.png" alt="energy">
           <p>10</p>
         </div>
         <div class="imgPair">
-          <img src="./assets/Fun.png" alt="fun">
+          <img src="assets/play.png" alt="fun">
           <p>10</p>
         </div>
       </div>
@@ -33,52 +34,23 @@
       <div class="imageFrame">
         <!-- State: Happy -->
         <div class="states">
-          <img src="./assets/Nimo.png" alt="Happy">
+          <img src="./assets/Nimo.png" alt="happy">
           <div class="lineOne"></div>
         </div>
         <div class="stateFrame">
             <p>HAPPY</p>
         </div>
-
-        <!-- State: Sleepy
-        <div class="states">
-        <img src="./assets/Sleepy.png" alt="sleepy">
-        <div class="lineOne"></div>
-        </div>
-        <div class="stateFrame">
-          <p>SLEEPY</p>
-        </div> -->
-
-        <!-- State: Hungry
-        <div class="states">
-        <img src="./assets/Hungry.png" alt="hungry">
-        <div class="lineOne"></div>
-        </div>
-        <div class="stateFrame">
-          <p>HUNGRY</p>
-        </div> -->
-
-        <!-- State: Bored
-        <div class="states">
-        <img src="./assets/Bored.png" alt="bored">
-        <div class="lineOne"></div>
-        </div>
-        <div class="stateFrame">
-          <p>BORED</p>
-        </div> -->
-
       </div>
     </div>
-   
     <nav class="navigation">
       <button class="gameBoyButton">
-        <img src="./assets/Hunger.png" alt="gameboy apple button">
+        <img src="assets/eat.png" alt="gameboy-hunger-button">
       </button>
       <button class="gameBoyButton">
-        <img src="./assets/Sleep.png" alt="gameboy apple button">
+        <img src="assets/energy.png" alt="gameboy-energy-button">
       </button>
       <button class="gameBoyButton">
-        <img src="./assets/Fun.png" alt="gameboy apple button">
+        <img src="assets/play.png" alt="gameboy-fun-button">
       </button>
     </nav>
     </div>
