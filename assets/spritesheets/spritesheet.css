@@ -1,0 +1,73 @@
+#nimo {
+    background-image: url('css_sprites.png');
+    background-repeat: no-repeat;
+}
+
+.bored {
+    width: 152px;
+    height: 130px;
+    background-position:  -10px -10px;
+}
+
+.dead {
+    width: 182px;
+    height: 72px;
+    background-position:  -1389px -10px;
+}
+
+.hungry {
+    width: 152px;
+    height: 130px;
+    background-position:  -526px -10px;
+}
+
+.eating {
+    width: 152px;
+    height: 130px;
+    animation: eat 1s steps(2) infinite;
+}
+
+@keyframes eat {
+    from {
+        background-position: -182px -10px;
+    }
+    to {
+        background-position: -354px -10px;
+    }
+}
+
+.playing {
+    width: 200px;
+    height: 144px;
+    animation: play 1s steps(2) infinite;
+}
+
+@keyframes play {
+    from {
+        background-position: -1591px -10px;
+    }
+    to {
+        background-position: -1811px -10px;
+    }
+}
+
+.sleepy {
+    width: 154px;
+    height: 130px;
+    background-position:  -1215px -10px;
+}
+
+.sleeping {
+    width: 152px;
+    height: 130px;
+    animation: sleep 1s steps(2) infinite;
+}
+
+@keyframes sleep {
+    from {
+        background-position: -698px -10px;
+    }
+    to {
+        background-position: -870px -10px;
+    }
+}
